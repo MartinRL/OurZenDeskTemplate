@@ -1,0 +1,13 @@
+﻿{
+   "name": "MVNO ZenDesk Template",
+   "version": "0.1.0",
+   "manifest_version": 2,
+   "description": "Håndhæver MVNO's ZenDesk-skabelon",
+   "browser_action": {
+     "default_icon": "icon.png"
+   },
+   "content_scripts": [{
+       "matches": ["http://mvno.zendesk.com/tickets/new"],
+       "js": ["jquery-2.0.3.min.js", "script.js"]
+   }]
+}
