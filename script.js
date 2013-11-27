@@ -7,8 +7,6 @@ function addTemplateForm() {
     
     ticketChat.append('<div class="select"><label>Brand</label><br /><input type="radio" name="brand" value="Alle">Alle&nbsp;&nbsp;&nbsp;<input type="radio" name="brand" value="CBB">CBB&nbsp;&nbsp;&nbsp;<input type="radio" name="brand" value="BiBob">BiBob&nbsp;&nbsp;&nbsp;<input type="radio" name="brand" value="OK Mobil">OK Mobil</div>');
 
-    ticketChat.append('<div class="select"><label>Skal DOH CC på sagen?</label><br /><input type="radio" name="doh" value="ja">Ja</div>');
-
     ticketChat.append('<div class="select"><label for="eksempel">Eksempel</label><textarea id="eksempel" ' + textareaSize + ' placeholder="Der skal være min. 1 eksempel i en Helpdesksag.' + textareaNewline + 'Hvis der er tale om et testeksempel skal dette udførligt beskrives."></textarea></div>');
 
     ticketChat.append('<div class="select"><label for="oprindelse">Kilde/Oprindelse</label><textarea id="oprindelse" ' + textareaSize + ' placeholder="Kunden har kontaktet KS' + textareaNewline + 'Rapport fra Backoffice (husk at skriv hvilken)' + textareaNewline + 'Tilfældigt opslag' + textareaNewline + 'Andet (f.eks. Test)"></textarea></div>');
