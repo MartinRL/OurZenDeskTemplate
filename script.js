@@ -1,6 +1,8 @@
 ﻿var textareaNewline = new Array(300).join(' ');
 
 function addTemplateForm() {
+    $('#ticket-chat').append('<div class="select"><label>Brand</label><br /><input type="radio" name="brand" value="Alle">Alle&nbsp;&nbsp;&nbsp;<input type="radio" name="brand" value="CBB">CBB&nbsp;&nbsp;&nbsp;<input type="radio" name="brand" value="BiBob">BiBob&nbsp;&nbsp;&nbsp;<input type="radio" name="brand" value="OK Mobil">OK Mobil</div>');
+
     $('#ticket-chat').append('<div class="select"><label for="eksempel">Eksempel</label><textarea id="eksempel" rows="8" size="100%" placeholder="Der skal være min. 1 eksempel i en Helpdesksag.' + textareaNewline + 'Hvis der er tale om et testeksempel skal dette udførligt beskrives."></textarea></div>');
 
     $('#ticket-chat').append('<div class="select"><label for="oprindelse">Kilde/Oprindelse</label><textarea id="oprindelse" rows="8" size="100%" placeholder="Kunden har kontaktet KS' + textareaNewline + 'Rapport fra Backoffice (husk at skriv hvilken)' + textareaNewline + 'Tilfældigt opslag' + textareaNewline + 'Andet (f.eks. Test)"></textarea></div>');
